@@ -1,0 +1,18 @@
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: https://daimler-q-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html
+Access-Control-Expose-Headers: Access-Control-Allow-Origin,Access-Control-Allow-Methods
+Content-Length: 172
+Content-Type: text/css
+
+<%@page contentType="text/css" %>
+/* Load Daimler Custom Fonts if not installed */
+@font-face {
+ font-family: CorpoS;
+ local: CorpoS;
+ src: url(DaimlerCS-Regular.woff) ;
+}
+@font-face {
+ font-family: CorpoA;
+ local: CorpoA;
+ src: url(DaimlerCA-Regular.woff) ;
+}
